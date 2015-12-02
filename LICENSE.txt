@@ -1,4 +1,3 @@
-
  ***************************************************************************************
  * Get the droid" project is the original work of Nishith kumar and was developed in 
  * September 2015 as the Javascript project for Rob Percival's Complete Web Developer 
