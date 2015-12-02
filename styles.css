@@ -1,0 +1,183 @@
+/*************************************************************************************
+ * "Get the droid" Copyright (c) 2015 Nishith Kumar.
+ * 
+ * Get the droid" project is the original work of Nishith kumar and was developed in 
+ * September 2015 as the Javascript project for Rob Percival's Complete Web Developer 
+ * Course at Udemy. 
+ *
+ * This program comes with NO WARRANTY and is licensed under a Creative Commons 
+ * Attribution-NonCommercial-ShareAlike 4.0 International License. Any Adapted Material 
+ * must include this header for attribution to the original creator. 
+ *************************************************************************************/
+ 
+	body {
+        padding: 0;
+		margin:0 auto;
+		font-family: 'Roboto', sans-serif; 
+    }
+
+	.fixedWidth{
+		width: 1200px;
+		margin : 0 auto;
+	}
+
+	#header{
+		background-color: #545454;
+		color:#78C257;
+		height: 110px;
+		margin: 0;
+        padding: 0;
+	}
+	
+	#header h1{
+		margin : 0px;
+		padding : 5px;
+	}
+	
+	
+	#title{
+		position: relative;
+		float:left;
+		left: 210px;
+		top: 22px;
+		font-size: 1.5em;
+	}
+	
+	#title h1{
+		margin:0;
+		float:left;		
+		}
+	
+	
+	#droidLogo{
+		float: left;
+		position: relative;
+		top: -4px;
+		padding : 0 10px 0 10px;
+	
+	}
+	
+	#scoreCard{
+		float:right;
+		position: relative;
+		right: 230px;
+		top: 30px;	
+	}
+	
+	#scoreCard h3{
+		margin: 0;
+		padding: 0;
+	}
+	
+	#highScore{
+		position: relative;
+		top: 3px;
+	}
+	
+	#isNewHigh{
+		margin: 0;
+		padding: 0;
+		color: #bdbdbd;
+		float:left;
+		position: relative;
+		left : 320px;
+		top: 50px;
+	}
+	
+	
+	
+	#footer{
+		background-color: #545454;
+		
+		text-align: center;
+		color:#F5F5F5;
+	}
+	
+	#footer p{
+		margin:0;
+		padding:3px 0 0 0;
+		font-size: 0.7em;
+
+	}
+	
+	.italic{
+		font-style: italic;
+	}
+	
+	#footer h3{
+		margin-top:8px;
+		padding:0;
+		font-size: 0.7em;
+	}
+	
+	#footer a{
+		margin:0;
+		padding:0px;
+		text-decoration: none;	
+		color:#F5F5F5;
+	}
+	
+	#footer a:hover {
+		text-decoration: none;	
+		color:#9ccc65;
+	}
+	
+
+	#container{
+		background-color: #545454;
+		margin: 0;
+        padding: 0;
+	}
+	
+	
+	#box{
+		width: 1100px;
+		height: 540px;
+		margin : 0 auto;
+		background-color: #FFFFFF;
+	}
+	
+	#instructions{
+		width: 1100px;
+		height: 540px;
+	}
+	
+	#gameOver{
+		width: 1100px;
+		height: 540px;
+		display: none;
+	}
+	
+	#gameOverNewHigh{
+		width: 1100px;
+		height: 540px;
+		display: none;
+	}
+	
+	#youWon{
+		width: 1100px;
+		height: 540px;
+		display: none;
+	}	
+	
+	#restartChallenge{
+		width: 1100px;
+		height: 540px;
+		display: none;
+	}
+			
+	
+	#droid {
+		height: 100px;
+		position: relative;
+		left: 100px;
+		top: 150px;
+	}
+			
+		
+	.separator{
+		margin : 0 auto;
+		padding:3px;
+		width: 1000px;
+		border-bottom:1px solid #DCDCDC;	
+	}
